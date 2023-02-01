@@ -13,6 +13,12 @@ for food in foods:
     print(f"{food} is a good food")
 """
 ## Exercise 3 ##
+"""
+for food in foods[2:]:
+    print(food)
+
+    # I'm not confident that I did this correctly, how would you recommend this is done?
+"""
 
 ## Exercise 4 ##
 """
@@ -33,11 +39,11 @@ for key, val in home_town.items():
 
 ## Exercise 6 ##
 
-# cohort = []
-# cohort.extend(('student', students[0]))
-# print(cohort)
-# dict(item([("student", "Molly"), ("fav_food": "Bread")]))
-
+"""cohort = []
+cohort.extend(('student', students[0]))
+print(cohort)
+dict(item([("student", "Molly"), ("fav_food": "Bread")]))
+"""
 
 ## Exercise 7 ##
 """
