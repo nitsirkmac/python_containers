@@ -1,17 +1,17 @@
 ## Exercise 1 ##
 
-"""
+
 students = [ "Molly", "Mickey", "Michael", "Matthew" ]
 print( students[1])
 print( students[-1])
-"""
+
 
 ## Exercise 2 ##
-"""
+
 foods = ("Bread", "Bacon", "Lettuce", "Tomato")
 for food in foods:
     print(f"{food} is a good food")
-"""
+
 ## Exercise 3 ##
 """
 for food in foods[2:]:
@@ -39,11 +39,13 @@ for key, val in home_town.items():
 
 ## Exercise 6 ##
 
-"""cohort = []
-cohort.extend(('student', students[0]))
+cohort = []
+for idx, student in enumerate(students):
+    cohort.append(dict(iter([("student", student), ("fav_food", foods[idx])])))
+
 print(cohort)
-dict(item([("student", "Molly"), ("fav_food": "Bread")]))
-"""
+
+
 
 ## Exercise 7 ##
 """
